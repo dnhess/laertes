@@ -17,13 +17,14 @@ const theme = createMuiTheme({
       light: '#C8E6C9',
       main: '#4CAF50',
       dark: '#388E3C',
-      text: '#FFFFFF'
+      contrastText: '#FFFFFF'
     },
     accent: '#FFC107',
     secondary: {
-      ptext: '#212121',
-      stext: '#757575',
+      main: '#FFC107',
     },
+    ptext: '#212121', // Primary Text Color
+    stext: '#757575', // Secondary Text Color
     divider: '#BDBDBD'
   }
 })
