@@ -9,7 +9,9 @@ jobs:
       - checkout
       - node/with-cache:
           steps:
-            - run: cd client
+            - run:
+                command: |
+                  cd client/
             - run: yarn build
 workflows:
     build-client:
