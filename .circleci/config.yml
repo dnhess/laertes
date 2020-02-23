@@ -17,6 +17,7 @@ jobs:
             # - run: ls
             # - run: cd client
             # - run: ls
+            - run: yarn install
             - run: yarn build
 workflows:
     build-client:
