@@ -10,7 +10,7 @@ jobs:
       - checkout
       - node/with-cache:
           steps:
-            - run: ls
+            - run: ls client
             - run: pwd
             # - run: cd client
             # - run: ls
