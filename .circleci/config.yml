@@ -3,7 +3,7 @@ orbs:
   node: circleci/node@1.1.6
 jobs:
   build-client:
-    # working_directory: ~/client
+    working_directory: ~/project/client
     executor:
       name: node/default
     steps:
