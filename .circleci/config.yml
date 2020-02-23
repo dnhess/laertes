@@ -5,13 +5,11 @@ jobs:
   build-client:
     executor:
       name: node/default
+    working_directory: ~/laertes/client
     steps:
       - checkout
       - node/with-cache:
           steps:
-            - run:
-                command: |
-                  cd client/
             - run: yarn build
 workflows:
     build-client:
