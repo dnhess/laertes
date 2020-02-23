@@ -3,14 +3,14 @@ orbs:
   node: circleci/node@1.1.6
 jobs:
   build-client:
+    working_directory: ~/laertes/client/
     executor:
       name: node/default
     steps:
-      - checkout
+      - checkout:
+          path: ~/laertes
       - node/with-cache:
           steps:
-            - run: ls
-            - run: cd client
             - run: ls
             - run: pwd
             # - run: cd client
