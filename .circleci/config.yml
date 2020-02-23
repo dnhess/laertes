@@ -5,11 +5,12 @@ jobs:
   build-client:
     executor:
       name: node/default
-    working_directory: ~/client/client
+    working_directory: ~/client/
     steps:
       - checkout
       - node/with-cache:
           steps:
+            - run: cd client
             - run: ls
             - run: yarn build
 workflows:
