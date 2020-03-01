@@ -2,6 +2,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+Proxy inside of package.json tells axios what url to use when making requests
+
 In the project directory, you can run:
 
 ### `yarn start`
