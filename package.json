@@ -10,7 +10,9 @@
   "dependencies": {
     "next": "10.0.1",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "serverless-mysql": "^1.5.4",
+    "sql-template-strings": "^2.2.2"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^3.0.0",
