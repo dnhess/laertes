@@ -29,9 +29,9 @@
 -- Automatic deployments once code is merged into master
 -- Free! [^1]
 
-- [Heroku](https://www.heroku.com/home)
--- Offers an easy 1 click deployment of a [postgres sql deployment](https://elements.heroku.com/addons/heroku-postgresql)
--- Free! [^2]
+- [Oracle Cloud](https://www.oracle.com/mysql/)
+-- I'm currently using Oracle Cloud because they have a free tier that is perfect for development 
+-- You can use pretty much anything you want (AWS, Google Cloud, etc.) as long as they support mysql
 
 ## Setup
 ### Windows
