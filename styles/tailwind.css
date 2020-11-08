@@ -3,3 +3,36 @@
 @tailwind  components;
 /* purgecss end ignore */
 @tailwind  utilities;
+/* purgecss start ignore */
+.mainContainer {
+    padding-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1024px;
+}
+
+.cancelMainContainerPadding {
+    margin-top: -2rem;
+}
+
+.full-width {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+
+@media (max-width: 1024px) {
+    .mainContainer {
+        padding-top: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .cancelMainContainerPadding {
+        margin-top: -1rem;
+    }
+}
+/* purgecss end ignore */

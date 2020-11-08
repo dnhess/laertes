@@ -9,8 +9,13 @@
   },
   "dependencies": {
     "next": "10.0.1",
+    "next-auth": "^3.1.0",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "serverless-mysql": "^1.5.4",
+    "sql-template-strings": "^2.2.2",
+    "swr": "^0.3.8",
+    "typeorm": "^0.2.29"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^3.0.0",
