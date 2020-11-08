@@ -29,10 +29,8 @@
 -- Automatic deployments once code is merged into master
 -- Free! [^1]
 
-- [Oracle Cloud](https://www.oracle.com/mysql/)
--- I'm currently using Oracle Cloud because they have a free tier that is perfect for development 
--- You can use pretty much anything you want (AWS, Google Cloud, etc.) as long as they support mysql
-
+- [AWS](https://aws.amazon.com/e)
+-- I'm currently using an AWS RDS instance on the free tier but you can use any host that supports mysql
 ## Setup
 ### Windows
 1. [Download and setup a windows subsystem](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
