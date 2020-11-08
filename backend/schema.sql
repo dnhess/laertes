@@ -30,6 +30,7 @@ CREATE TABLE users
   (
     id             INT NOT NULL AUTO_INCREMENT,
     name           VARCHAR(255),
+    username       VARCHAR(255),
     email          VARCHAR(255),
     email_verified TIMESTAMP(6),
     image          VARCHAR(255),
